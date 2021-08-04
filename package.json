@@ -1,16 +1,16 @@
 {
-  "name": "lycwed-cordova-plugin-android-tv",
+  "name": "quick-cordova-android-tv",
   "version": "1.0.5",
-  "description": "Cordova plugin to manage app for Android TV.",
+  "description": "Cordova plugin to manage app for Android TV. Forked from lycwed.",
   "cordova": {
-    "id": "lycwed-cordova-plugin-android-tv",
+    "id": "quick-cordova-android-tv",
     "platforms": [
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lycwed/lycwed-cordova-plugin-android-tv.git"
+    "url": "git+https://github.com/faqro/quick-cordova-android-tv.git"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -24,10 +24,10 @@
     "name": "cordova",
     "version": ">=8.0.0"
   },
-  "author": "Lechevalier Yves",
+  "author": "Faraaz Jan, based on Lechevalier Yves",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lycwed/lycwed-cordova-plugin-android-tv/issues"
+    "url": "https://github.com/faqro/quick-cordova-android-tv/issues"
   },
-  "homepage": "https://github.com/lycwed/lycwed-cordova-plugin-android-tv#readme"
+  "homepage": "https://github.com/faqro/quick-cordova-android-tv#readme"
 }
