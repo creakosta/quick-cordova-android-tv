@@ -6,7 +6,7 @@ Cordova plugin to manage app for Android TV.
 
 ## Install
 
-`cordova plugin add quick-cordova-android-tv`
+`cordova plugin add https://github.com/faqro/quick-cordova-android-tv.git`
 
 ## Requirements
 
