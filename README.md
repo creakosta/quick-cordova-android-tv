@@ -10,9 +10,7 @@ Cordova plugin to manage app for Android TV.
 
 ## Requirements
 
-Include banners in config.xml at varying sizes as splash images. These will be automatically added to various 'drawable' folders.
-
-Then add in your config.xml in platform android :
+Add in your config.xml in platform android :
 
 ```xml
         <resource-file src="/res/android/banner.png" target="app/src/main/res/drawable/banner.png"/>
