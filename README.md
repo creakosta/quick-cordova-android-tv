@@ -15,8 +15,9 @@ Include banners in config.xml at varying sizes as splash images. These will be a
 Then add in your config.xml in platform android :
 
 ```xml
+        <resource-file src="/res/android/banner.png" target="app/src/main/res/drawable/banner.png"/>
         <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
-            <application android:banner="@drawable/screen" />
+            <application android:banner="@drawable/banner" />
             <application android:isGame="true" />
         </edit-config>
 ```
