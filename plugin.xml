@@ -20,11 +20,13 @@
       <uses-feature android:name="android.hardware.faketouch" android:required="false"/>
       <uses-feature android:name="android.hardware.telephony" android:required="false"/>
       <uses-feature android:name="android.hardware.sensor" android:required="false"/>
+      <uses-feature android:name="android.hardware.gamepad" android:required="false"/>
     </config-file>
 
     <config-file parent="/manifest/application/activity/intent-filter" target="app/src/main/AndroidManifest.xml" 
       xmlns:android="http://schemas.android.com/apk/res/android">
       <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+      <category android:name="tv.ouya.intent.category.GAME"/>
     </config-file>
   </platform>
 </plugin>
